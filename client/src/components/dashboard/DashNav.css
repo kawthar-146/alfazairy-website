@@ -1,0 +1,25 @@
+.dashboard-menu {
+  background-color: whitesmoke;
+  width: 250px;
+  min-height: 355px;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 1.2em;
+  border: 2.5px solid #b8c1ec;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-menu ul li {
+  margin: 0.5em;
+  border-bottom: 3.5px solid #b8c1ec;
+  font-size: 1.6rem;
+  color: black;
+  text-align: center;
+}
+
+.active-db-link {
+  color: crimson;
+  font-weight: bold;
+  text-decoration: none;
+}

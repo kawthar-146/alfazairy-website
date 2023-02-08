@@ -1,0 +1,46 @@
+.section-container {
+  padding-bottom: 5em;
+  background-color: lightgrey;
+}
+
+.section-container > p {
+  font-size: 3.5em;
+  padding: 1.5em;
+  font-weight: bold;
+  text-decoration: underline crimson;
+  text-underline-offset: var(--underline-offset);
+  text-align: center;
+  font-family: dancing script;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 3em;
+}
+
+.specs {
+  padding: 2em;
+}
+
+.specs-header {
+  font-size: 2.7em;
+  font-weight: bold;
+}
+
+.specs-text {
+  font-size: 1.5em;
+  max-width: 500px;
+  padding-top: 0.5em;
+}
+
+@media (max-width: 800px) {
+  .features-container {
+    display: block;
+    text-align: center;
+  }
+
+  .section-container > p {
+    text-align: center;
+  }
+}

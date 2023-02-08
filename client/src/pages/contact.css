@@ -1,0 +1,29 @@
+.contact-page-container {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  padding: 5em;
+  margin: 2em 0em 0em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .underline-crimson {
+  text-decoration: underline crimson;
+  font-family: dancing script;
+} */
+
+@media (max-width: 900px) {
+  .contact-page-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* background image / embed map / add section at the begging like contact us  */
+
+@media screen and (max-width: 414px) {
+  .intro-section-one p {
+    font-size: 0.8em;
+  }
+}

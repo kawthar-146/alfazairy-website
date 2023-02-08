@@ -1,0 +1,122 @@
+/* This is the imported PRIMARY font that we will use for our page "Poppins"  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,700&family=Proza+Libre&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,700&family=Proza+Libre&display=swap');
+
+:root {
+  --primary-font-family: 'Josefin Sans', sans-serif;
+  --secondary-font-family: 'Dancing script', serif;
+  --primary-font-color: black;
+  --secondary-font-color: white;
+  --tertiary-font-color: crimson;
+  --underline-offset: 6px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font-family);
+}
+
+html {
+  font-size: 16px;
+  /* overflow-y: scroll; */
+}
+
+/* body {
+  overflow-y: scroll;
+} */
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 14px;
+    width: 100vw;
+  }
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 0 2em;
+  overflow-x: hidden;
+}
+
+main h1 {
+  text-align: center;
+  margin: 1.5em auto;
+  font-size: 3rem;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+.header-section {
+  text-align: center;
+}
+
+.underlined-design {
+  width: fit-content;
+  position: relative;
+}
+
+.underlined-design::before {
+  content: '';
+  position: absolute;
+  left: 3.6%;
+  bottom: 25px;
+  width: 100%;
+  height: 4px;
+  transform: skew(-12deg) translateX(-5%);
+  background: var(--tertiary-font-color);
+  z-index: -1;
+}
+
+.intro-section-one {
+  font-weight: bold;
+  font-size: 4em;
+  padding: 2em 0;
+  width: fit-content;
+  font-family: 'Dancing script', serif;
+}
+
+.intro-section-one p {
+  font-family: dancing script;
+  text-decoration: underline crimson;
+  text-underline-offset: var(--underline-offset);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes openAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*
+For the footer and Navbar
+
+background-color: #333;  
+font-size: 2em; 
+
+*/

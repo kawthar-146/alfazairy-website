@@ -1,0 +1,34 @@
+.dresses-main {
+  position: relative;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin: 1.5em auto 0 auto;
+  padding: 1em;
+}
+
+.dresses-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5em;
+  width: 90%;
+  min-height: 50vh;
+}
+
+.collection-title {
+  margin-left: 0 !important;
+  font-size: 3rem !important;
+}
+
+@media screen and (max-width: 800px) {
+  .top-header {
+    flex-direction: column;
+  }
+}

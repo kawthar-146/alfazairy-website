@@ -1,0 +1,38 @@
+.collection {
+  width: 380px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2em 4em 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  transition: 1s;
+  animation: fadeIn 2s;
+}
+
+/* .collection-page-header {
+  margin: 1.5em 0 0.2em 0;
+  font-size: 3rem;
+  font-family: var(--secondary-font-family);
+} */
+
+@media (hover: hover) and (pointer: fine) {
+  .collection:hover {
+    transform: scale(1.05);
+  }
+}
+
+.collection img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.collection h2 {
+  margin: 0.7em 0;
+  padding: 0px 10px;
+  font-family: var(--secondary-font-family);
+  font-size: 2.5em;
+  font-weight: 200;
+}

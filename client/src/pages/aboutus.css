@@ -1,0 +1,21 @@
+/* body {
+  overflow-y: scroll;
+} */
+
+.reviewcard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+
+.intro-header {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 3.5em;
+  font-family: 'Dancing script', serif;
+  text-decoration: underline crimson;
+  text-underline-offset: var(--underline-offset);
+}

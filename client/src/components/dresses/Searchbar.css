@@ -1,0 +1,49 @@
+.wrapper {
+  width: 100%;
+  max-width: 31.25rem;
+  /* margin: 6rem auto; */
+  position: relative;
+}
+
+.searchBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    max-width: 29rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    margin-bottom: 2em;
+  }
+}
+
+#searchQueryInput {
+  width: 100%;
+  height: 2.8rem;
+  background: #e7e7e7;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 2.8rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
